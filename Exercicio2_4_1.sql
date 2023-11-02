@@ -7,3 +7,6 @@ CREATE VIEW pedidosClientes AS
              ON p.pdd_cli_id = c.cli_id
   ORDER BY c.cli_id,
 		   p.pdd_id;
+           
+-- Executa a view pedidosClientes
+CALL selecionarTudo("pedidosClientes");
