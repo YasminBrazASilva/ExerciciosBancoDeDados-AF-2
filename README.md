@@ -26,24 +26,25 @@ Crie as tabelas "Clientes" e "Pedidos" com campos apropriados. Insira dados de e
 
 ---
 ### Etapa 2: CRIAÇÃO DE STORED PROCEDURE
-Crie uma stored procedure chamada "InserirPedido" que permite inserir um novo pedido na tabela "Pedidos" com as informações apropriadas. A stored procedure deve receber parâmetros como o ID do cliente e os detalhes do pedido. Ao término teste o funcionamento da stored procedure criada inserindo um pedido
-    * Implementação da procedure: [Exercicio2_2_1.sql](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AF-2/blob/main/Exercicio2_2_1.sql)
-    * Execução da procedure: [Exercicio2_2_2.sql](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AF-2/blob/main/Exercicio2_2_2.sql)
-    * Resultado: [ExercicioRelatorio2_2_2.csv](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AF-2/blob/main/ExercicioRelatorio2_2_2.csv)
+Crie uma stored procedure chamada "InserirPedido" que permite inserir um novo pedido na tabela "Pedidos" com as informações apropriadas. A stored procedure deve receber parâmetros como o ID do cliente e os detalhes do pedido. Ao término teste o funcionamento da stored procedure criada inserindo um pedido<br>
+   * Implementação da procedure: [Exercicio2_2_1.sql](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AF-2/blob/main/Exercicio2_2_1.sql)
+   * Execução da procedure: [Exercicio2_2_2.sql](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AF-2/blob/main/Exercicio2_2_2.sql)
+   * Resultado: [ExercicioRelatorio2_2_2.csv](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AF-2/blob/main/ExercicioRelatorio2_2_2.csv)
 
 ---
 ### Etapa 3: TRIGGER
-Crie uma trigger que seja acionada APÓS a inserção de um novo pedido na tabela "Pedidos". A trigger deve calcular o valor total dos pedidos para o cliente correspondente e atualizar um campo "TotalPedidos" na tabela "Clientes" com o valor total. Teste a Trigger inserindo um novo pedido na tabela "Pedidos“.
-    * Implementação da procedure: [Exercicio2_3_1.sql](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AF-2/blob/main/Exercicio2_3_1.sql)
-    * Execução da procedure: [Exercicio2_3_2.sql](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AF-2/blob/main/Exercicio2_3_2.sql)
-    * Resultado: [ExercicioRelatorio2_3_2.csv](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AF-2/blob/main/ExercicioRelatorio2_3_2.csv) 
+Crie uma trigger que seja acionada APÓS a inserção de um novo pedido na tabela "Pedidos". A trigger deve calcular o valor total dos pedidos para o cliente correspondente e atualizar um campo "TotalPedidos" na tabela "Clientes" com o valor total. Teste a Trigger inserindo um novo pedido na tabela "Pedidos“.<br>
+   * Implementação da procedure: [Exercicio2_3_1.sql](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AF-2/blob/main/Exercicio2_3_1.sql)
+   * Execução da procedure: [Exercicio2_3_2.sql](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AF-2/blob/main/Exercicio2_3_2.sql)
+   * Resultado: [ExercicioRelatorio2_3_2.csv](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AF-2/blob/main/ExercicioRelatorio2_3_2.csv) 
 
 ---
 ### Etapa 4: VIEW
-Crie uma view chamada "PedidosClientes" que combina informações das tabelas "Clientes" e "Pedidos" usando JOIN para mostrar os detalhes dos pedidos e os nomes dos clientes.
-  * Criação da view pedidosClientes: [Exercicio2_4_1.sql](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AF-2/blob/main/Exercicio2_4_1.sql)
+Crie uma view chamada "PedidosClientes" que combina informações das tabelas "Clientes" e "Pedidos" usando JOIN para mostrar os detalhes dos pedidos e os nomes dos clientes.<br>
+   * Criação da view pedidosClientes: [Exercicio2_4_1.sql](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AF-2/blob/main/Exercicio2_4_1.sql)
 
 ---
 ### Etapa 5: CONSULTA COM JOIN
-Escreva uma consulta SQL que utiliza JOIN para listar os detalhes dos pedidos de cada cliente, incluindo o nome do cliente e o valor total de seus pedidos. Utilize a view "PedidosClientes" para essa consulta.
+Escreva uma consulta SQL que utiliza JOIN para listar os detalhes dos pedidos de cada cliente, incluindo o nome do cliente e o valor total de seus pedidos. Utilize a view "PedidosClientes" para essa consulta.<br>
+  * Execução da view: [Exercicio2_5_1.sql](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AF-2/blob/main/Exercicio2_5_1.sql)
   * Resultado: [ExercicioRelatorio2_5_1.csv](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AF-2/blob/main/ExercicioRelatorio2_5_1.csv) 
