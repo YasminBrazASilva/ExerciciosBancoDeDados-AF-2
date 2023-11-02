@@ -1,9 +1,10 @@
 # ExerciciosBancoDeDados-AF-2
 Exercícios para AF da matéria de Banco de Dados do 2º semestre de ADS
 
-Atividade: Sistema de Gerenciamento de Pedidos
+Atividade: Sistema de Gerenciamento de Pedidos <br>
 
 Objetivo: Criar um sistema de gerenciamento de pedidos em um banco de dados utilizando stored procedures, triggers, views e JOINs no MySQL Workbench.
+
 ---
 ### Etapa 1: CRIAÇÃO DE TABELAS E INSERÇÃO DE DADOS
 Crie as tabelas "Clientes" e "Pedidos" com campos apropriados. Insira dados de exemplo nas tabelas para simular clientes e pedidos. Certifique-se de incluir uma chave primária em cada tabela.
@@ -19,8 +20,8 @@ Crie as tabelas "Clientes" e "Pedidos" com campos apropriados. Insira dados de e
 * Adicionando dados a tabela:
   * A criação da stored procedure **selecionarTudo** pode ser vista em: [Exercicio2_1_3_1.sql](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AF-2/blob/main/Exercicio2_1_3_1.sql) <br>
   * A criação da stored procedure **novoCliente** pode ser vista em: [Exercicio2_1_3_2.sql](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AF-2/blob/main/Exercicio2_1_3_2.sql) <br>
-    * Sua execução pode ser vista [neste arquivo](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AF-2/blob/main/Exercicio2_1_3_4.sql), o qual gerou [este relatório](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AF-2/blob/main/ExercicioRelatorio2_1_3_4.csv). <br>
-  * A criação da stored procedure **novoPedido** pode ser vista em: [Exercicio2_1_3_3.sql](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AF-2/blob/main/Exercicio2_1_3_3.sql) <br>
+    * Sua execução pode ser vista [neste arquivo](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AF-2/blob/main/Exercicio2_1_3_3.sql), o qual gerou [este relatório](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AF-2/blob/main/ExercicioRelatorio2_1_3_3.csv). <br>
+  * A criação da stored procedure **novoPedido** pode ser vista em: [Exercicio2_1_3_4.sql](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AF-2/blob/main/Exercicio2_1_3_4.sql) <br>
     * Sua execução pode ser vista [neste arquivo](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AF-2/blob/main/Exercicio2_1_3_5.sql), o qual gerou [este relatório](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AF-2/blob/main/ExercicioRelatorio2_1_3_5.csv). <br>
 
 ---
