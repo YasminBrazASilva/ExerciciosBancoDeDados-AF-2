@@ -42,9 +42,10 @@ Crie uma trigger que seja acionada APÓS a inserção de um novo pedido na tabel
 ### Etapa 4: VIEW
 Crie uma view chamada "PedidosClientes" que combina informações das tabelas "Clientes" e "Pedidos" usando JOIN para mostrar os detalhes dos pedidos e os nomes dos clientes.<br>
    * Criação da view pedidosClientes: [Exercicio2_4_1.sql](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AF-2/blob/main/Exercicio2_4_1.sql)
+   * Resultado: [ExercicioRelatorio2_4_1.csv](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AF-2/blob/main/ExercicioRelatorio2_4_1.csv) 
 
 ---
 ### Etapa 5: CONSULTA COM JOIN
 Escreva uma consulta SQL que utiliza JOIN para listar os detalhes dos pedidos de cada cliente, incluindo o nome do cliente e o valor total de seus pedidos. Utilize a view "PedidosClientes" para essa consulta.<br>
-  * Execução da view: [Exercicio2_5_1.sql](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AF-2/blob/main/Exercicio2_5_1.sql)
+  * Execução do código: [Exercicio2_5_1.sql](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AF-2/blob/main/Exercicio2_5_1.sql)
   * Resultado: [ExercicioRelatorio2_5_1.csv](https://github.com/YasminBrazASilva/ExerciciosBancoDeDados-AF-2/blob/main/ExercicioRelatorio2_5_1.csv) 
